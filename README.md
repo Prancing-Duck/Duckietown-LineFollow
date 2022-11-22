@@ -226,7 +226,7 @@ Deák Gergely's map
 ```
 ./gym/manual_control.py --env-name Duckietown-deak-v0 --map-name tracks/deak_map
 ```
-[Video on youtube]()
+[Video on youtube](https://youtu.be/J6C1rYYIpqk)
 
 #### 6. Document steps
 
