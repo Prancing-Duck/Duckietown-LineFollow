@@ -11,6 +11,8 @@ dependencies:
     - pyyaml=3.12
     - pip:
         - gym
-        - pyglet
+        - pyglet==1.5.27
         - opencv-python
         - scikit-image
+        - carnivalmirror
+        - -r requirements.txt
