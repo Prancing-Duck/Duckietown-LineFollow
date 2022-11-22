@@ -1,6 +1,6 @@
 ## Team members
-* @deakg4 Deák Gergely
-* @martonoravecz Oravecz Márton Péter
+* @deakg4 Deák Gergely MEVPIT
+* @martonoravecz Oravecz Márton Péter J38LZK
 
 Third teammember left the team, due to scheduling issues with his work commitments.
 
@@ -91,6 +91,7 @@ So I reinstalled with the last version which did not require python 3.8
 ```
 pip uninstall pyglet
 pip install pyglet==1.5.27
+pip install -r requirements.txt
 ```
 
 ##### 5. Graphical library issues
@@ -197,7 +198,7 @@ to
                 tile_idx = self.np_random.integers(0, len(self.drivable_tiles))
 ```
 
-##### 9. Started example
+##### 10. Started example
 ```
 ./manual_control.py --env-name Duckietown-udem1-v0
 ```
@@ -210,6 +211,22 @@ Already run in previous sub step (2.10)
 [Oravecz Márton Péter's map](tracks/marton_map.yml)
 
 #### 5. Run agent and save the video
+
+We reworked to the preparation steps to the following:
+```
+conda env create -f gym/environment.yaml
+conda activate gym-duckietown
+sudo apt install --reinstall libgl1-mesa-dri -y
+sudo apt-get update
+sudo apt-get install libstdc++6 -y
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
+export PYTHONPATH="${PYTHONPATH}:`pwd`/gym:`pwd`/gym/src"
+
+```
+It was done by extending environment.yaml in gym folder
+
+
+How to start after setup the examples
 ```
 ./gym/manual_control.py --env-name Duckietown-<<name>>-<<version>> --map-name <<path_to_map>>
 ```
