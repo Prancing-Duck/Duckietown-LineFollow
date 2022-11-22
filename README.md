@@ -207,7 +207,7 @@ Already run in previous sub step (2.10)
 #### 4. Create tracks
 [Deák Gergely's map](tracks/deak_map.yaml)
 
-[Oravecz Márton Péter's map](tracks/marton_map.yaml)
+[Oravecz Márton Péter's map](tracks/marton_map.yml)
 
 #### 5. Run agent and save the video
 ```
