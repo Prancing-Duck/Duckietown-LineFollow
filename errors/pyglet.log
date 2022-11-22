@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "./manual_control.py", line 14, in <module>
+    import pyglet
+  File "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/pyglet/__init__.py", line 54, in <module>
+    raise Exception(f"pyglet {version} requires Python {MIN_PYTHON_VERSION_STR} or newer.")
+Exception: pyglet 2.0.0 requires Python 3.8 or newer.
