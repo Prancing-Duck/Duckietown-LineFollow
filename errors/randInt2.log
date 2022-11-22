@@ -1,0 +1,64 @@
+DEBUG:commons:version: 6.2.4 *
+DEBUG:typing:version: 6.2.3
+DEBUG:duckietown_world:duckietown-world version 6.2.39 path /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages
+DEBUG:geometry:PyGeometry-z6 version 2.1.4 path /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages
+DEBUG:aido_schemas:aido-protocols version 6.0.59 path /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages
+DEBUG:nodes:version 6.2.13 path /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages pyparsing 3.0.9
+{'audio': ('xaudio2', 'directsound', 'openal', 'pulse', 'silent'), 'debug_font': False, 'debug_gl': True, 'debug_gl_trace': False, 'debug_gl_trace_args': False, 'debug_graphics_batch': False, 'debug_lib': False, 'debug_media': False, 'debug_texture': False, 'debug_trace': False, 'debug_trace_args': False, 'debug_trace_depth': 1, 'debug_trace_flush': True, 'debug_win32': False, 'debug_x11': False, 'graphics_vbo': True, 'shadow_window': True, 'vsync': None, 'xsync': True, 'xlib_fullscreen_override_redirect': False, 'darwin_cocoa': True, 'search_local_libs': True, 'advanced_font_features': False, 'headless': False, 'headless_device': 0, 'win32_disable_shaping': False}
+DEBUG:gym-duckietown:gym-duckietown version 6.1.31 path /home/martonoravecz/gym-duckietown/src
+
+INFO:gym-duckietown:Information about the graphics card:
+ pyglet_version: 1.5.27
+    information: dict[4]
+                 │ vendor: Intel
+                 │ renderer: Mesa Intel(R) Xe Graphics (TGL GT2)
+                 │ version: 4.6 (Compatibility Profile) Mesa 22.0.5
+                 │ shading-language-version: 4.60
+  nvidia_around: False
+INFO:duckietown_world: data: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data
+DEBUG:gym-duckietown:loading map file "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/maps/udem1.yaml"
+INFO:gym-duckietown:done
+DEBUG:gym-duckietown:loading mesh 'duckiebot' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/duckiebot/duckiebot.obj'
+DEBUG:gym-duckietown:loading materials from /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/duckiebot/duckiebot.mtl
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/duckiebot/circlegrid-square.jpg
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/duckie/duckie.png
+DEBUG:gym-duckietown:loading mesh 'tree' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/tree/tree.obj'
+DEBUG:gym-duckietown:loading materials from /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/tree/tree.mtl
+DEBUG:gym-duckietown:loading mesh 'duckie' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/duckie/duckie.obj'
+DEBUG:gym-duckietown:loading mesh 'sign_generic' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_generic/sign_generic.obj'
+DEBUG:gym-duckietown:loading materials from /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_generic/sign_generic.mtl
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_stop/sign_stop.png
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/wood_osb.jpg
+DEBUG:gym-duckietown:loading mesh 'sign_generic' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_generic/sign_generic.obj'
+DEBUG:gym-duckietown:loading materials from /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_generic/sign_generic.mtl
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_left_T_intersect/sign_left_T_intersect.png
+DEBUG:gym-duckietown:loading mesh 'sign_generic' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_generic/sign_generic.obj'
+DEBUG:gym-duckietown:loading materials from /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_generic/sign_generic.mtl
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_right_T_intersect/sign_right_T_intersect.png
+DEBUG:gym-duckietown:loading mesh 'sign_generic' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_generic/sign_generic.obj'
+DEBUG:gym-duckietown:loading materials from /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_generic/sign_generic.mtl
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/signs/sign_T_intersect/sign_T_intersect.png
+DEBUG:gym-duckietown:loading mesh 'house' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/house/house.obj'
+DEBUG:gym-duckietown:loading materials from /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/house/house.mtl
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/house/house.png
+DEBUG:gym-duckietown:loading mesh 'truck' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/truck/truck.obj'
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/truck/truck.png
+DEBUG:gym-duckietown:loading mesh 'bus' from file_path '/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/bus/bus.obj'
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/meshes/bus/bus.png
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/textures/tiles-processed/photos/floor/texture.jpg
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/textures/tiles-processed/photos/curve_left/texture.jpg
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/textures/tiles-processed/photos/straight/texture.jpg
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/textures/tiles-processed/photos/3way_left/texture.jpg
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/textures/tiles-processed/photos/asphalt/texture.jpg
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/textures/tiles-processed/photos/grass/texture.jpg
+DEBUG:gym-duckietown:loading texture: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/duckietown_world/data/gd1/textures/tiles-processed/photos/curve_right/texture.jpg
+Traceback (most recent call last):
+  File "./manual_control.py", line 44, in <module>
+    dynamics_rand=args.dynamics_rand,
+  File "/home/martonoravecz/gym-duckietown/src/gym_duckietown/envs/duckietown_env.py", line 16, in __init__
+    Simulator.__init__(self, **kwargs)
+  File "/home/martonoravecz/gym-duckietown/src/gym_duckietown/simulator.py", line 381, in __init__
+    self.reset()
+  File "/home/martonoravecz/gym-duckietown/src/gym_duckietown/simulator.py", line 675, in reset
+    tile_idx = self.np_random.randint(0, len(self.drivable_tiles))
+AttributeError: 'numpy.random._generator.Generator' object has no attribute 'randint'

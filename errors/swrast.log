@@ -1,0 +1,24 @@
+ibGL error: MESA-LOADER: failed to open iris: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/PIL/../../../././libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /lib/x86_64-linux-gnu/libLLVM-13.so.1) (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: iris
+libGL error: MESA-LOADER: failed to open iris: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/PIL/../../../././libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /lib/x86_64-linux-gnu/libLLVM-13.so.1) (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: iris
+libGL error: MESA-LOADER: failed to open swrast: /home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/PIL/../../../././libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /lib/x86_64-linux-gnu/libLLVM-13.so.1) (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: swrast
+Traceback (most recent call last):
+  File "./manual_control.py", line 15, in <module>
+    from pyglet.window import key
+  File "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/pyglet/window/__init__.py", line 1919, in <module>
+    gl._create_shadow_window()
+  File "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/pyglet/gl/__init__.py", line 206, in _create_shadow_window
+    _shadow_window = Window(width=1, height=1, visible=False)
+  File "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/pyglet/window/xlib/__init__.py", line 171, in __init__
+    super(XlibWindow, self).__init__(*args, **kwargs)
+  File "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/pyglet/window/__init__.py", line 616, in __init__
+    context = config.create_context(gl.current_context)
+  File "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/pyglet/gl/xlib.py", line 204, in create_context
+    return XlibContextARB(self, share)
+  File "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/pyglet/gl/xlib.py", line 314, in __init__
+    super(XlibContext13, self).__init__(config, share)
+  File "/home/martonoravecz/miniconda3/envs/gym-duckietown/lib/python3.7/site-packages/pyglet/gl/xlib.py", line 218, in __init__
+    raise gl.ContextException('Could not create GL context')
+pyglet.gl.ContextException: Could not create GL context
