@@ -1,4 +1,3 @@
-niu# Duckytown-LineFollow
 ## Team members
 * @deakg4 Deák Gergely
 * @martonoravecz Oravecz Márton Péter
