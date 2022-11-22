@@ -206,7 +206,7 @@ Oravecz Márton's map
 ```
 ./gym/manual_control.py --env-name Duckietown-marton-v0 --map-name tracks/marton_map
 ```
-[Video on youtube]()
+[Video on youtube](https://www.youtube.com/watch?v=Sihvt9_jITQ)
 
 
 Deák Gergely's map
@@ -218,3 +218,7 @@ Deák Gergely's map
 #### 6. Document steps
 
 Steps is documented in this file
+
+#### 7. Work balance
+
+Oravecz Márton Péter mainly worked on solcing issues with starting the environment and Deák Gergely mainly worked on experimenting with the environment and exporing map creation. 
