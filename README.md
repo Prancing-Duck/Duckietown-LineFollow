@@ -6,26 +6,36 @@ Third teammember left the team, due to scheduling issues with his work commitmen
 
 ## Milestone 1
 
-We were woerking based on the e-mail sent by Móna Róbert in regards of the the the deliverables in each step.
-Our seteup was run a freshly installed Ubuntu 22.04
+We were working based on the e-mail sent by Móna Róbert in regards of the the the deliverables in each step.
+Our setup was run a freshly installed Ubuntu 22.04
 
 ### 1. Clone the duckietown-gym repository
 
 ```
 git clone https://github.com/duckietown/gym-duckietown.git
+mkdir gym
+mv gym-duckietown gym
+
 ```
 
 ### 2. Setup the environments and install required libraries
 
-There were some issues with our choice of operation system and the environment. In ideal situation we would ahve been able to follow the [gym-ducketown repository's README.md](https://github.com/duckietown/gym-duckietown/blob/daffy/README.md), but the following issue stopped us
+There were some issues with our choice of operation system and the environment. In ideal situation we would have been able to follow the [gym-ducketown repository's README.md](https://github.com/duckietown/gym-duckietown/blob/daffy/README.md), but the following issue stopped us.
 
 #### Running gym in a docker
+We run docker with following coomands
+```
+docker pull duckietown/gym-duckietown && \
+docker run -it duckietown/gym-duckietown bash
+```
+
 Following commands has to be run before manual-control.py
 ```
 apt-get update && apt-get install -y freeglut3-dev fontconfig
 Xvfb :0 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
 export DISPLAY=:0
 ```
+We could not document results on docker visually, so local run was reuired
 
 #### Running gym locally
 
@@ -74,7 +84,7 @@ Tried to run the example with
 ```
 ./manual_control.py --env-name Duckietown-udem1-v0
 ```
-Pyglet version was only compatible with python 3.8. 
+Pyglet version was only compatible with python 3.8.
 Log output can be find [here](errors/pyglet.log)
 
 So I reinstalled with the last version which did not require python 3.8
@@ -125,6 +135,9 @@ Tried to run the example
 ModuleNotFoundError: No module named 'carnivalmirror'
 
 Log output can be find [here](errors/carnivalmirror.log).
+
+Installed the library
+
 ```
 pip install carnivalmirror
 ```
@@ -173,7 +186,7 @@ to
 ```
                 obj.visible = self.np_random.integers(0, 2) == 0
 ```
-and 
+and
 Line 675 from
 ```
                 tile_idx = self.np_random.randint(0, len(self.drivable_tiles))
@@ -189,7 +202,7 @@ to
 ./manual_control.py --env-name Duckietown-udem1-v0
 ```
 #### 3. Run ./manual_control.py --env-name Duckietown-udem1-v0
-Already run in previous substep (2.10)
+Already run in previous sub step (2.10)
 
 #### 4. Create tracks
 [Deák Gergely's map](tracks/deak_map.yaml)
@@ -221,4 +234,4 @@ Steps is documented in this file
 
 #### 7. Work balance
 
-Oravecz Márton Péter mainly worked on solcing issues with starting the environment and Deák Gergely mainly worked on experimenting with the environment and exporing map creation. 
+Oravecz Márton Péter mainly worked on solving issues with starting the environment and Deák Gergely mainly worked on experimenting with the environment and exploring map creation.
